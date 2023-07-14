@@ -1,0 +1,19 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/media/djoker/data/code/42/projectos/push swap'
+cc -Wall -Wextra -Werror    -c -o push_swap.o push_swap.c
+cc -Wall -Wextra -Werror    -c -o ft_atoi.o ft_atoi.c
+cc -Wall -Wextra -Werror    -c -o ft_split.o ft_split.c
+cc -Wall -Wextra -Werror    -c -o create_stack.o create_stack.c
+cc -Wall -Wextra -Werror    -c -o check_order.o check_order.c
+cc -Wall -Wextra -Werror    -c -o init_order.o init_order.c
+cc -Wall -Wextra -Werror    -c -o solver.o solver.c
+cc -Wall -Wextra -Werror    -c -o min_max.o min_max.c
+cc -Wall -Wextra -Werror    -c -o swap.o swap.c
+cc -Wall -Wextra -Werror    -c -o push.o push.c
+cc -Wall -Wextra -Werror    -c -o rotate.o rotate.c
+cc -Wall -Wextra -Werror    -c -o reverse_rotate.o reverse_rotate.c
+cc -Wall -Wextra -Werror    -c -o ft_utils.o ft_utils.c
+cc -Wall -Wextra -Werror    -c -o ft_lts.o ft_lts.c
+cc -o push_swap push_swap.o ft_atoi.o ft_split.o create_stack.o check_order.o init_order.o solver.o min_max.o swap.o push.o rotate.o reverse_rotate.o ft_utils.o ft_lts.o -I.
+make: Leaving directory '/media/djoker/data/code/42/projectos/push swap'
+ 
